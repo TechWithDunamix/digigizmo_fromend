@@ -1,0 +1,19 @@
+.cartList{
+	padding:10px;
+}
+@media(min-width:767px){
+	.cartList{
+		margin-left:80px;
+		}
+	.item-header{
+		width:600px;
+		color:#889;
+		display: flex;
+		justify-content: space-between;
+/*		border-bottom: 1px solid #999;*/
+/*		max-width: 400px;*/
+
+	}
+	
+	}
+

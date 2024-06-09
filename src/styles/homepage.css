@@ -1,0 +1,144 @@
+.hero-container{
+	margin-top: -8px;
+	height: 80vh !important ;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	border-bottom:1px solid gray;
+	background-image: url("../images/hero-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	animation-name: hero;
+	animation-duration: 2s;
+
+}
+#trending-product-heading{
+		font-size: 1.8rem;
+	}
+@media(max-width:767px){
+	.hero-content{
+		margin-left: 20px;
+		font-weight: bolder;
+
+	}
+	#trending-product-heading{
+		font-size: 1rem;
+	}
+	.hero-container{
+		height: 60vh !important;
+	}
+}
+@keyframes hero{
+	from{
+		transform: translateX(320px);
+	}
+
+}
+
+.hero-small-title{
+	font-weight: bolder;
+	color: white;
+
+}
+.hero-title{
+	color: white;
+}
+.hero-content{
+/*	margin-top: 30px;*/
+	color: floralwhite;
+}
+.trending-product-container{
+	display: flex;
+	overflow-x: auto;
+	padding: 10px;
+	gap:10px;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	position: relative;
+}
+.trending-product-container::-webkit-scrollbar{
+	height: 8px;
+}
+.trending-product-container::-webkit-scroolbar-thumb{
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+/*	position: relative;*/
+
+}
+.trending-product-card{
+	width:200px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+/*	justify-content: space-between;*/
+
+}
+.trending-product-image{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.trending-product-card-container{
+	flex-wrap: nowrap;
+
+}
+.scoll-button{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 15px;
+	cursor: pointer;
+	border-radius: 15000px;
+
+}
+.scoll-button:first-of-type{
+	left: 0;
+}
+.scoll-button:last-of-type{
+	right: 0;
+}
+.quality-product-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+
+}
+
+.quality-product-heading{
+	padding-left: 10px;
+	padding-right: 10px;
+	color:#00175b  !important;
+	background-color: #146b8714;
+/*	width: 400px;*/
+	text-align: center;
+	font-size: 0.651rem;
+	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+
+}
+@media(max-width:767px){
+	.quality-product-heading{
+		font-size: 0.48rem;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+.quality-product-heading h1{
+	
+}
+.quality-product-detail{
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: black;
+	width: 340px;
+	text-align: center;
+}

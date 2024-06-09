@@ -1,0 +1,5 @@
+import {Button,message} from 'antd'
+// import 'antd/dist/antd.css'
+import {useContext} from 'react'
+import {globalContext} from './App.js'
+export const BaseUrl = 'https://digigizmo-api.vercel.app//api/v1'

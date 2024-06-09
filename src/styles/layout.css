@@ -1,0 +1,25 @@
+.lg-nav{
+	display:none;
+	background-color: white;
+}
+.sm-nav{
+	display: flex;
+}
+.menu-btn{
+	margin-top: 10px;
+	background-color: transparent;
+	color:darkblue;
+	border: 1px solid darkblue;
+	margin-left: 10px;
+
+
+}
+
+@media(min-width:600px){
+	.lg-nav{
+		display: flex;
+	}
+	.sm-nav{
+		display: none;
+	}
+}
