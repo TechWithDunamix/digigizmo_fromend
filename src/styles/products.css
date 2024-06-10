@@ -49,7 +49,9 @@
 }
 
 }
-
+.product-detail-image-container{
+	padding:20px;
+}
 @media(min-width:767px){
 	.product-detail-container{
 		width: 75%;

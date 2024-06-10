@@ -81,7 +81,7 @@ const ProductDetailPage = () =>{
 	return <MainLayout>
 		<div className="product-detail-container">
 			<Row>
-				<Col xs={24} sm={24} lg={12} md={24}>
+				<Col xs={24} sm={24} lg={12} md={24} className="product-detail-image-container">
 					<img className="product-detail-image" src={productDetail.image} alt={productDetail.name} />
 				</Col>
 				<Col xs={24} sm={24} lg={12} md={24} className="product-detail-text-container">
