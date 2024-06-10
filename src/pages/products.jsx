@@ -45,9 +45,9 @@ const ProductPage = () => {
 	}
 	
 	return <MainLayout>	
-			<Row>
+			<Row justify ='center'>
 				{products.results.map(product => {
-					return <Col xs={12} lg={4} md={12} sm={12}>
+					return <Col xs={12} lg={4} md={8} sm={12}>
 						<ProductCard product={product} />
 					</Col>	
 				})}

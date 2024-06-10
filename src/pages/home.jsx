@@ -85,9 +85,9 @@ export default function HomePage(){
 		</Col>
 		</Row>
 
-		<Row>
+		<Row justify='center'>
 		{productList && productList.results.slice(1,24).map(product => {
-						return <Col xs={12} lg={4} md={12} sm={12}>
+						return <Col xs={12} lg={4} md={8} sm={12}>
 							<ProductCard product={product} />
 						</Col>	
 					})}
