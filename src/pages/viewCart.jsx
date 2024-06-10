@@ -97,7 +97,7 @@ const ViewCartPage = () =>{
 			if (response.ok){
 				context.message("success",'Your Order is placed')
 				setTimeout(() => {
-					window.location.href = 'https://wa.me/08119730652'
+					window.location.href = 'https://wa.me/+2348119730652'
 				},1000)
 			}
 		})
